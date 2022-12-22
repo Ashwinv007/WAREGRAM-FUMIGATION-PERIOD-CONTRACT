@@ -1,0 +1,152 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="icon" href="https://media.licdn.com/dms/image/C560BAQF3ZOPp-kayQQ/company-logo_200_200/0/1671348774524?e=1679529600&v=beta&t=6qL1toCg7GGP5Ja8J5l_cq3bVbRyiHtp_Qlq-cvNzyM" type="image/x-icon">
+    <title>WAREGRAM FUMIGATION PERIOD CONTRACT</title>
+    <style>
+      body {
+        background-color: #F0F8FF; /* Flaming blue */
+      }
+
+      h1 {
+        color: #002366; /* Royal blue */
+        font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+        font-size: 36px;
+        text-align: center;
+      }
+
+      .content {
+        margin: 0 auto;
+        width: 80%;
+        background-color: #FFFFFF; /* White */
+        border: 2px solid #002366; /* Royal blue */
+        border-radius: 10px;
+        padding: 20px;
+      }
+
+      .form {
+        margin: 20px auto;
+        width: 50%;
+        background-color: #FFFFFF; /* White */
+        border: 2px solid #002366; /* Royal blue */
+        border-radius: 10px;
+        padding: 20px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 18px;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      input[type="number"] {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        font-size: 16px;
+      }
+
+      input[type="checkbox"] {
+        margin-bottom: 10px;
+      }
+
+      input[type="submit"] {
+        width: 100%;
+        background-color: #002366; /* Royal blue */
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 18px;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #000080; /* Navy */
+      }
+    </style>
+  </head>
+  <body>
+    <div  style="display: flex; justify-content: center; align-items: flex-start;">
+        <img src="https://media.licdn.com/dms/image/C560BAQF3ZOPp-kayQQ/company-logo_200_200/0/1671348774524?e=1679529600&v=beta&t=6qL1toCg7GGP5Ja8J5l_cq3bVbRyiHtp_Qlq-cvNzyM" alt="WAREGRAM LOGO">
+
+    </div>
+    <h1>WAREGRAM FUMIGATION PERIOD CONTRACT</h1>
+    <div class="content">
+      <h2>What to Expect During Your Time with this Period?</h2>
+      <p>Welcome to the 60 Day Fumigation Period with WAREGRAM. During this time, you will be assigned tasks related to your role and will receive payment for all projects except the first two, which are designed to introduce you to our processes. You will have access to WAREGRAM's social media platforms for communication and will be provided with a username and password for our dashboard, where you can track your progress and view WAREGRAM's current status. As part of our commitment to building a friendly and cohesive team, we encourage all teammates to contribute to WAREGRAM's success through various means outlined on our web page. Throughout this period, we will be evaluating your mindset, teamwork, patience, culture, and skills to ensure that you are a valuable member of our team. </p>
+    </div>
+
+    <div class="content" style="margin-top: 2em;">
+        <h2>What next if you got recruited officially?</h2>
+        <ul>
+            <li>Access to Notion Workspace.</li>
+            <li>Effective Communication with other teammates.</li>
+            <li>Include your ideas/Project in WAREGRAM.</li>
+            <li>Get support from other teammates to build your Ideas/Projects.</li>
+            <li>Support for Building your Personal Brand.</li>
+            <li>Get High Level Projects.</li>
+            <li>More Consideration as a teammate.</li>
+            <li>Approving you for upcoming future plans of <a href="https://www.linkedin.com/in/ashwinv369/" target="_blank"> Ashwin V</a>.</li>
+
+
+
+
+
+        </ul>
+      </div>
+
+
+      <div  style="display: flex; justify-content: center; align-items: flex-start; margin-top:2em">
+        <h1>Ready?</h1>
+
+    </div>
+     
+   
+<div class="form">
+  <form id="submit-form" action="">
+    <label for="name">Name:</label>
+    <input name="Name" type="text" id="name" required>
+
+    <label for="email">Email:</label>
+    <input name="email" type="email" id="email" required>
+
+    <label for="mobile">Mobile:</label>
+    <input name="Mobile" type="number" id="mobile" required>
+
+    <input type="checkbox" id="terms" value="terms" required>
+    <label for="terms">I am willing to enter the Programme.</label>
+
+    <input type="submit" id="form-submit" class="main-button">
+  </form>
+</div>
+
+<script>
+    $("#submit-form").submit((e)=>{
+        e.preventDefault()
+        $.ajax({
+            url:"https://script.google.com/macros/s/AKfycbwFh2wGqSI4ViEWpXzwctLML1Ke0BwxcAT4gwO_8cZp4ftz6lcH_sgqg-9m9IZHb-P2iQ/exec",
+            data:$("#submit-form").serialize(),
+            method:"post",
+            success:function (response){
+                alert("noice")
+                window.location.reload()
+                //window.location.href="https://google.com"
+            },
+            error:function (err){
+                alert("Something Error")
+
+            }
+        })
+    })
+</script>
+
+</body>
+
+
